@@ -1,14 +1,3 @@
-Estructura de Carpetas del Repositorio
-Proyecto_Final_E7_ST000289/
- ├── 01_dataset_original/      <-- Matriz procesada original sin modificar (MSdata_ST000289.txt) [3, 4]
- ├── 02_metadata/              <-- Metadatos de muestras (ST000289_metadata.xlsx) [3, 5]
- ├── 03_scripts/               <-- Código en R/Python y el script descargado Rhistory.R de MetaboAnalyst [3]
- ├── 04_outputs/               <-- Tablas procesadas exportadas (plsda_vip.csv, volcano.csv, pathway_results.csv) [3]
- ├── 05_figuras/               <-- Gráficas a alta resolución (Normalization_plot.png, PCA_scores.png, etc.) [3]
- ├── 06_documentacion/         <-- Archivo mwTab.txt, Ficha técnica y notas de trabajo [3, 6]
- └── README.md                 <-- Guía principal de reproducibilidad y descripción del proyecto [1, 7]
-________________________________________
-2. Plantilla para el archivo README.md
 # Análisis Metabolómico Comparativo por LC-MS en Endospermo de *Zea mays* bajo Silenciamiento de la Enzima PPDK
 
 **Curso:** Metabolómica (2026-II)  
@@ -18,7 +7,7 @@ ________________________________________
 
 ---
 
-## 📌 1. Descripción del Proyecto y Dataset
+## 1. Descripción del Proyecto y Dataset
 
 Este proyecto evalúa el efecto del silenciamiento genético de la enzima piruvato fosfato dikinasa (PPDK) mediante RNAi sobre el perfil metabolómico en el endospermo de maíz (*Zea mays*) recolectado a los 20 días post-polinización. 
 
@@ -29,7 +18,7 @@ Este proyecto evalúa el efecto del silenciamiento genético de la enzima piruva
 
 ---
 
-## 📂 2. Estructura del Repositorio
+## 2. Estructura del Repositorio
 
 * `01_dataset_original/`: Matriz procesada de metabolitos nombrados descargada de Metabolomics Workbench.
 * `02_metadata/`: Tabla de metadatos de muestras con la asignación de grupos experimentales.
@@ -40,7 +29,7 @@ Este proyecto evalúa el efecto del silenciamiento genético de la enzima piruva
 
 ---
 
-## ⚙️ 3. Pasos para Reproducir el Análisis en MetaboAnalyst 6.0
+## 3. Pasos para Reproducir el Análisis en MetaboAnalyst 6.0
 
 1. **Ingreso:** Cargar la matriz de metabolitos de `01_dataset_original/` en el módulo *Statistical Analysis (One Factor)* de MetaboAnalyst 6.0.
 2. **Normalización:** Aplicar normalización PQN (Probabilistic Quotient Normalization), transformación logarítmica ($\log_2$) y escalado Pareto.
