@@ -39,7 +39,7 @@ Este proyecto evalúa el efecto del silenciamiento genético de la enzima piruva
 
 ---
 
-## 📄 4. Entregables del Proyecto
+## 📄 Entregables del Proyecto
 * **Documento Escrito (PDF):** Informe de 3 páginas con introducción, objetivo MARTE, pipeline, discusión y conclusiones.
 * **Video de Defensa:** Presentación grabada de 7 a 8 minutos alojada
 
